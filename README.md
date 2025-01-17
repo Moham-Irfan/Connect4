@@ -1,5 +1,4 @@
 # Connect4
-#### Video Demo: https://youtu.be/iH6_pFc2-vg
 
 ## Description
 This project implements a simple text-based version of the **Connect4** game using Python. Connect4 is a two-player game where players take turns dropping tokens into a 6x6 grid. The goal is to align four tokens of your color in a row, column, or diagonal to win the game.
@@ -25,7 +24,7 @@ To play the game, ensure you have Python installed on your system. Follow these 
 1. Clone or download the project files.
 2. Install the required dependency:
    ```bash
-   pip install prettytable
+   pip install -r requirements. txt
    ```
 
 ---
@@ -39,7 +38,7 @@ To play the game, ensure you have Python installed on your system. Follow these 
 3. The game will display the updated grid after each turn, with tokens and empty cells color-coded:
    - **🔴**: Player 1's token
    - **🔵**: Player 2's token
-   - **--**: Empty cell
+   - **--** : Empty cell
 4. The game ends when:
    - A player aligns four tokens horizontally, vertically, or diagonally.
    - The grid is full, resulting in a draw.
@@ -47,9 +46,8 @@ To play the game, ensure you have Python installed on your system. Follow these 
 
 ---
 
-## Notes
+## Note :
 - The game clears the console after every turn using `os.system('cls')` for Windows. If you're using a Unix-based system, replace it with `os.system('clear')` in the code.
-- You can enhance the game by adding AI for single-player mode or customizing the grid size.
 
 ---
 
